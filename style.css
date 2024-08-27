@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(223, 167, 255);
+}
+
+main{
+   width: 940px;
+   margin: 0% auto;
+}
+form{
+    margin: 40px;
+}
+
+form label, form legend{
+    display:block;
+    font-size: 20px;
+    color:rgb(88, 78, 104);
+    margin: 0 0 10px;
+}
+>input-pradrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.formulario{
+    display: block;
+    margin: 0 0 10px;
+    padding: 20px 25px;
+}
+footer {
+text-align: center;
+padding: 40px 0;
+}
+.copyright{
+color: rgb(0, 0, 0);
+font-size: 13px;
+margin: 20px 0 0;
+}
+
+.Enviar{
+width: 20%;
+padding: 15px 0;
+color: rgb(0, 0, 0); font-weight: bold;
+background: rgb(252, 252, 252);
+font-size: 18px;
+border: none;
+border-radius: 5px;
+transition: 1s all;
+cursor: pointer;
+}
+.Enviar:hover {
+    background: rgb(48, 9, 9);
+     transform: scale(1.2);
+}
